@@ -158,6 +158,8 @@ static Shortcut shortcuts[] = {
 	{ MODKEY|ShiftMask,     XK_V,           clippaste,      {.i =  0} },
 	{ MODKEY,               XK_Num_Lock,    numlock,        {.i =  0} },
     { XK_NO_MOD,            XK_F11,         togglefullscreen,   {.i =  0} },
+    { MODKEY|ShiftMask,     0xff55,         kscrollup,      {.i = -1} },
+    { MODKEY|ShiftMask,     XK_Page_Down,   kscrolldown,    {.i = -1} },
 };
 
 /*
