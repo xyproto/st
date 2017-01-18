@@ -529,7 +529,7 @@ static int iofd = 1;
 static char **opt_cmd  = NULL;
 static char *opt_class = NULL;
 static char *opt_embed = NULL;
-static char *opt_font  = NULL;
+static char *opt_font  = "Consolas:size=12";
 static char *opt_io    = NULL;
 static char *opt_line  = NULL;
 static char *opt_name  = NULL;

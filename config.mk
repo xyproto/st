@@ -20,8 +20,8 @@ LIBS = -L/usr/lib -lc -L${X11LIB} -lm -lrt -lX11 -lutil -lXft -lXrender \
 
 # flags
 CPPFLAGS = -DVERSION=\"${VERSION}\" -D_XOPEN_SOURCE=600
-CFLAGS += -g -std=c99 -pedantic -Wall -Wvariadic-macros -Os ${INCS} ${CPPFLAGS}
-LDFLAGS += -g ${LIBS}
+CFLAGS += -std=c11 -pedantic -Wall -Wvariadic-macros -O3 ${INCS} ${CPPFLAGS}
+LDFLAGS += ${LIBS}
 
 # compiler and linker
 # CC = cc
